@@ -1,29 +1,58 @@
-<main class="wrap">
-  <div class="wrap2">
-    <h1 class="title">ChickenMan</h1>
-    <div class="sloganWrap">
-      <img class="icon" id="icon1" src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/chickenIcon.png">
-      <p id="slogan">“When the chicken is fried, the hero awakens.”</p>
-      <img class="icon" id="icon2" src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/chickenIcon.png">
-    </div>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChickenMan</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <main class="wrap">
+    <div class="wrap2">
+      <h1 class="title">ChickenMan</h1>
+
+      <div class="sloganWrap">
+        <img class="icon" id="icon1"
+          src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/chickenIcon.png">
+        <p id="slogan">“When the chicken is fried, the hero awakens.”</p>
+        <img class="icon" id="icon2"
+          src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/chickenIcon.png">
+      </div>
+
       <div class="chicken-grid">
         <p id="chicken-collected">Chicken Collected:</p>
-        <img width="80" class="chicken-slot" id="slot1" src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/blackFriedChicken.png">
-        <img class="chicken-slot" id="slot2" src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/blackFriedChicken.png">
-        <img class="chicken-slot" id="slot3" src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/blackFriedChicken.png">
-        <img class="chicken-slot" id="slot4" src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/blackFriedChicken.png">
-        <img class="chicken-slot" id="slot5" src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/blackFriedChicken.png">
+        <img width="80" class="chicken-slot" id="slot1"
+          src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/blackFriedChicken.png">
+        <img class="chicken-slot" id="slot2"
+          src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/blackFriedChicken.png">
+        <img class="chicken-slot" id="slot3"
+          src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/blackFriedChicken.png">
+        <img class="chicken-slot" id="slot4"
+          src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/blackFriedChicken.png">
+        <img class="chicken-slot" id="slot5"
+          src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/blackFriedChicken.png">
       </div>
-    <div id="PictureCloth">
-      <div id="openingUI">
-    <button id="startButton">Start Game</button>
-    <img id=opening1 src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/Opening1.png">
-    <img id=opening2 src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/Opening2.png">
-     </div>
-    <img id="mocking" src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/MonsterMocking.png">
-    <canvas id="game" width="480" height="320"></canvas>
-      <div id="winOverlay"></div>
+
+      <div id="PictureCloth">
+        <div id="openingUI">
+          <button id="startButton">Start Game</button>
+          <img id="opening1"
+            src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/Opening1.png">
+          <img id="opening2"
+            src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/Opening2.png">
+        </div>
+
+        <img id="mocking"
+          src="https://raw.githubusercontent.com/s3618222/Canvas-Game-Assets/refs/heads/main/images/MonsterMocking.png">
+
+        <canvas id="game" width="480" height="320"></canvas>
+        <div id="winOverlay"></div>
+      </div>
+
+      <p class="hint">使用方向鍵 / WASD 走動</p>
     </div>
-    <p class="hint">使用方向鍵 / WASD 走動</p>
-  </div>
   </main>
+  <script src="./script.js" defer></script>
+</body>
+</html>
